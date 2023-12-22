@@ -1,3 +1,4 @@
+import jokowi from "./../../../../public/assets/images/jokowi-pakai-ageman-songkok-singkepan-ageng-di-upacara-hut-ke-78-ri-1 1.svg";
 const Quote = () => {
   return (
     <>
@@ -17,7 +18,7 @@ const Quote = () => {
           </div>
           <div className="md:w-[40%] h-full">
             <img
-              src="../../../../public/assets/images/jokowi-pakai-ageman-songkok-singkepan-ageng-di-upacara-hut-ke-78-ri-1 1.svg"
+              src={jokowi}
               alt=""
               className="w-full h-full object-cover object-top"
             />

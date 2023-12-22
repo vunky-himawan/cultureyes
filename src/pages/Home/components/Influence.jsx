@@ -3,6 +3,10 @@ import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Parallax } from "swiper/modules";
 import { useMediaQuery } from "react-responsive";
+import papua from "./../../../../public/assets/images/papua.jpg";
+import barong from "./../../../../public/assets/images/barong.jpg";
+import bromo from "./../../../../public/assets/images/bromo.jpg";
+import labuanbajo from "./../../../../public/assets/images/labuanbajo.jpg";
 
 const Influence = () => {
   const target = useRef(null);
@@ -12,7 +16,7 @@ const Influence = () => {
   });
   const isMobiletoTablet = useMediaQuery({ maxWidth: 1024 });
 
-  const y = useTransform(scrollYProgress, [0.4, 1], ["0%", "-72%"])
+  const y = useTransform(scrollYProgress, [0.4, 1], ["0%", "-72%"]);
 
   return (
     <>
@@ -33,28 +37,28 @@ const Influence = () => {
               <motion.div style={{ y }} className="flex flex-col gap-5 pt-32">
                 <div className="w-[24rem] h-[30rem] flex justify-center items-center">
                   <img
-                    src="../../../../public/assets/images/barong.jpg"
+                    src={barong}
                     alt=""
                     className="w-full object-cover h-full rounded-2xl"
                   />
                 </div>
                 <div className="w-[24rem] h-[30rem] flex justify-center items-center">
                   <img
-                    src="../../../../public/assets/images/labuanbajo.jpg"
+                    src={labuanbajo}
                     alt=""
                     className="w-full object-cover h-full rounded-2xl"
                   />
                 </div>
                 <div className="w-[24rem] h-[30rem] flex justify-center items-center">
                   <img
-                    src="../../../../public/assets/images/papua.jpg"
+                    src={papua}
                     alt=""
                     className="w-full object-cover h-full rounded-2xl"
                   />
                 </div>
                 <div className="w-[24rem] h-[30rem] flex justify-center items-center">
                   <img
-                    src="../../../../public/assets/images/bromo.jpg"
+                    src={bromo}
                     alt=""
                     className="w-full object-cover h-full rounded-2xl"
                   />
@@ -92,7 +96,7 @@ const Influence = () => {
                         </div>
                       </div>
                       <img
-                        src="../../../../public/assets/images/papua.jpg"
+                        src={papua}
                         alt=""
                         className="w-full object-cover h-full rounded-2xl"
                       />
@@ -119,7 +123,7 @@ const Influence = () => {
                         </div>
                       </div>
                       <img
-                        src="../../../../public/assets/images/bromo.jpg"
+                        src={bromo}
                         alt=""
                         className="w-full object-cover h-full rounded-2xl"
                       />
@@ -144,7 +148,7 @@ const Influence = () => {
                         </div>
                       </div>
                       <img
-                        src="../../../../public/assets/images/barong.jpg"
+                        src={barong}
                         alt=""
                         className="w-full object-cover h-full rounded-2xl"
                       />
@@ -171,7 +175,7 @@ const Influence = () => {
                         </div>
                       </div>
                       <img
-                        src="../../../../public/assets/images/labuanbajo.jpg"
+                        src={labuanbajo}
                         alt=""
                         className="w-full object-cover h-full rounded-2xl"
                       />

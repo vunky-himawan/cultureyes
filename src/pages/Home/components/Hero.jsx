@@ -1,3 +1,5 @@
+import image from "./../../../../public/assets/images/hero.svg";
+
 const Hero = () => {
   return (
     <>
@@ -20,11 +22,7 @@ const Hero = () => {
           </button>
         </div>
         <div className="flex-1 w-full h-full hidden md:flex">
-          <img
-            src="../../../../public/assets/images/hero.svg"
-            alt=""
-            className="w-full h-full animate-bounce"
-          />
+          <img src={image} alt="" className="w-full h-full animate-bounce" />
         </div>
       </div>
     </>

@@ -4,13 +4,8 @@ import Card from "./components/Card";
 
 import { Autoplay, EffectCoverflow } from "swiper/modules";
 import { useMediaQuery } from "react-responsive";
-
-const images = [
-  "../../../../../public/assets/images/event 1.svg",
-  "../../../../../public/assets/images/event 1.svg",
-  "../../../../../public/assets/images/event 1.svg",
-  "../../../../../public/assets/images/event 1.svg",
-];
+import event1 from "./../../../../../public/assets/images/event 1.svg";
+const images = [event1, event1, event1];
 
 const Events = () => {
   const isMobiletoTablet = useMediaQuery({ maxWidth: 1024 });

@@ -1,26 +1,26 @@
 [
   {
     "category": "Tarian",
-    "image": "../../../../../../public/assets/images/category/tarian.png"
+    "image": "./../../../../../public/assets/images/category/tarian.png"
   },
   {
     "category": "Makanan Khas",
-    "image": "../../../../../../public/assets/images/category/makanan.png"
+    "image": "./../../../../../public/assets/images/category/makanan.png"
   },
   {
     "category": "Baju Adat",
-    "image": "../../../../../../public/assets/images/category/bajuadat.png"
+    "image": "./../../../../../public/assets/images/category/bajuadat.png"
   },
   {
     "category": "Wisata Lokal",
-    "image": "../../../../../../public/assets/images/category/wisata.png"
+    "image": "./../../../../../public/assets/images/category/wisata.png"
   },
   {
     "category": "Suku",
-    "image": "../../../../../../public/assets/images/category/suku.png"
+    "image": "./../../../../../public/assets/images/category/suku.png"
   },
   {
     "category": "Upacara Adat",
-    "image": "../../../../../../public/assets/images/category/upacara.png"
+    "image": "./../../../../../public/assets/images/category/upacara.png"
   }
 ]

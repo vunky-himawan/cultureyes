@@ -1,5 +1,6 @@
 import { useInView } from "framer-motion";
 import { useRef } from "react";
+import video from "./../../../../public/assets/video/videoplayback.webm";
 
 const Title = () => {
   const ref = useRef(null);
@@ -38,7 +39,7 @@ const VideoElement = () => {
         >
           <div className="w-full h-full">
             <video
-              src="../../../../public/assets/video/videoplayback.webm"
+              src={video}
               className="w-full h-full aspect-video rounded-3xl"
             ></video>
           </div>
